@@ -1,0 +1,12 @@
+/* Global styles */
+body {
+  margin: 0;
+  padding: 0;
+  background: #fff0f5; /* pastel pink */
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  overflow-x: hidden;
+}
+
+#root {
+  height: 100vh;
+}

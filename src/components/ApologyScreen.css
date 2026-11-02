@@ -1,0 +1,43 @@
+.apology-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #ffe0f0, #e0d0ff);
+  text-align: center;
+  color: #4a2c7a;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.apology-screen .question {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.apology-screen .fun-msg {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: #5a3b9e;
+}
+
+.button-group button {
+  font-size: 1.2rem;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 1.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.yes-button {
+  background: radial-gradient(circle, #ffb6c1, #ff69b4);
+  color: white;
+  box-shadow: 0 4px 8px rgba(255,105,180,0.3);
+}
+
+.no-button {
+  background: radial-gradient(circle, #d8bfd8, #dda0dd);
+  color: white;
+  box-shadow: 0 4px 8px rgba(221,160,221,0.3);
+}

@@ -1,0 +1,17 @@
+.heart-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  background: radial-gradient(circle at 20% 20%, rgba(255,182,193,0.2), transparent 25%),
+              radial-gradient(circle at 80% 30%, rgba(221,160,221,0.2), transparent 25%),
+              radial-gradient(circle at 50% 80%, rgba(255,182,193,0.2), transparent 25%);
+  animation: float 10s infinite linear;
+}
+
+@keyframes float {
+  0% { background-position: 0% 0%; }
+  100% { background-position: 100% 100%; }
+}
